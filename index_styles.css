@@ -1,5 +1,8 @@
 *{
-  font-size: 18px
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  
+
+}
+
+p {background-color: red;
 }
