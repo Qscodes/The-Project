@@ -4,41 +4,125 @@
 
 }
 
-p {background-color: red;
-}
 
 /* Nav styles */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+nav{
+  height: 225px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
 }
 
-ul {
+/* Social Media links position */
+.media{
+  display: flex;
+  flex-direction: row;
+  margin-left: 75%;
+  padding-top: 0px;
+
+}
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/* logo */
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-top: 15px;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: row;
+}
+/* Header --Sports */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  color: #E0E0E0;
+  margin-top: 0px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35%;
+  width: 50%;
+
+}
+
+nav ul {
+  list-style-type: none;
+
+ }
+
+
+/* Nav bar text */
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: black;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -25px;
+
 }
 
-li {
+nav li {
   float: left;
+
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+nav li a:hover {
+  background-color: red;
 }
 
-h1 {
-  font-size: 20px;
-}
+/* End Nav Bar text */
