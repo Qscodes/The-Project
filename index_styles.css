@@ -125,3 +125,85 @@ nav li a:hover {
 }
 
 /* End Nav Bar text */
+
+/* Hero Image */
+
+
+/* project */
+
+.project{
+  background-color: black;
+  height: 300px;
+  width: 100%;
+
+}
+
+
+.project{
+  display: flex;
+  flex-direction: row;
+}
+
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #E0E0E0;
+  margin-left: 8%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #E0E0E0;
+  margin-left: 8%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.button {
+  background-color: #C13C3C; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 100px;
+  font-size: 25px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 75%;
+  margin-top: -75px;
+
+}
+
+/*
+.button{
+  width: 180px;
+  height: 64px;
+  background-color:#C13C3C;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #E0E0E0;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  margin-left: 70%;
+  margin-top: -80px;
+
+}
+*/
