@@ -368,6 +368,10 @@ margin-left: 30%;
 }
 
 
+
+
+
+/* Slideshow bellow */
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -375,6 +379,7 @@ margin-left: 30%;
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-color: black;
 }
 
 /* Hide the images by default */
