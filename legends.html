@@ -3,9 +3,14 @@
 
 <head>
 
-  <link rel="stylesheet" type="text/css" href="index_styles.css">
+  <link rel="stylesheet" type="text/css" href="legends_styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<title> Sports </title>
+  <!--jquery-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <title> Sports </title>
 </head>
 
 
@@ -13,25 +18,23 @@
 <body>
 
   <header>
-      <nav>
+    <nav>
 
 
-<!-- Social Media -->
-<div class="media">
-<!-- This links icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Add font awesome icons -->
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-instagram"></a>
+      <!-- Social Media -->
+      <div class="media">
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
 
-</div>
+      </div>
 
 
-<!-- Logo and header -->
-        <img class="logo" src="img/temp_logo.png">
-        <h1> Sports Legends</h1>
-<!-- Nav links -->
+      <!-- Logo and header -->
+      <img class="logo" src="img/temp_logo.png">
+      <h1> Sports Legends</h1>
+      <!-- Nav links -->
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="legends.html">Legends</a></li>
@@ -43,13 +46,245 @@
         <li><a href="">Share Your Legend</a></li>
       </ul>
 
-  </nav>
-
-
+    </nav>
   </header>
 
 
 
-</body>
 
-</html>
+  <div class="content_area">
+    <h2>
+      CMSD LEGENDS
+      <div>
+        <p class="text">
+          Click on the portraits to learn more about our CMSD Sports Legends and explore our rich history.
+        </p>
+      </div>
+    </h2>
+    <div>
+      <button class="button">TELL YOUR STORY</button>
+    </div>
+    <h2>
+      ATHLETES
+    </h2>
+    <section id="olympians">
+      <div class="sectionTitle">
+        <h2 class="left">OLYMPIANS</h2>
+        <h2 class="right oPlus" onclick="$('.olympicAthleteImages').toggle();$('.oPlus').toggle();$('.oMinus').toggle();">+</h2>
+        <h2 class="right oMinus" onclick="$('.olympicAthleteImages').toggle();$('.oPlus').toggle();$('.oMinus').toggle();">-</h2>
+      </div>
+      <div class="olympicAthleteImages">
+        <div class="profileRow">
+          <div class="profileImage" onclick="$('#daveAlbritton').toggle()">
+            <div class="circularImage">
+              <img src="img/daveAlbritton.jpg" alt="Dave Albritton">
+            </div>
+            <p>Dave Albritton</p>
+            <div id="daveAlbritton" class="moreInfo">
+              <p onclick="$('#daveAlbritton').toggle()">
+                MORE INFO
+              </p>
+            </div>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/nathanBrooks.jpg" alt="Nathan Brooks">
+            </div>
+            <p>Nathan Brooks</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/harrisonDillard.jpg" alt="Harrison Dillard">
+            </div>
+            <p>Harrison Dillard</p>
+          </div>
+        </div>
+        <div class="profileRow">
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/paulDrayton.png" alt="Otis Paul Drayton">
+            </div>
+            <p>Paul Drayton</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/thomasJefferson.jpg" alt="Thomas Jefferson">
+            </div>
+            <p>Thomas Jefferson</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/madelineManningJackson.jpg" alt="Madeline Manning">
+            </div>
+            <p>Madeline Manning</p>
+          </div>
+        </div>
+        <div class="profileRow">
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/jesseOwens.jpg" alt="Jesse Owens">
+            </div>
+            <p>Jesse Owens</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/stellaWalsh.jpg" alt="Stella Walsh">
+            </div>
+            <p>Stella Walsh</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/harrisonDillard.jpg" alt="Harrison Dillard">
+            </div>
+            <p>Harrison Dillard Duplicate</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Olympic Trial Athletes-->
+
+    <section id="oTrials">
+      <div class="sectionTitle">
+        <h2 class="left">OLYMPIC TRIAL ATHLETES</h2>
+        <h2 class="right oTPlus" onclick="$('.olympicTrialImages').toggle();$('.oTPlus').toggle();$('.oTMinus').toggle();">+</h2>
+        <h2 class="right oTMinus" onclick="$('.olympicTrialImages').toggle();$('.oTPlus').toggle();$('.oTMinus').toggle();">-</h2>
+      </div>
+      <div class="olympicTrialImages">
+        <div class="profileRow">
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/daveAlbritton.jpg" alt="Dave Albritton">
+            </div>
+            <p>Dave Albritton</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/nathanBrooks.jpg" alt="Nathan Brooks">
+            </div>
+            <p>Nathan Brooks</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/harrisonDillard.jpg" alt="Harrison Dillard">
+            </div>
+            <p>Harrison Dillard</p>
+          </div>
+        </div>
+        <div class="profileRow">
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/paulDrayton.png" alt="Otis Paul Drayton">
+            </div>
+            <p>Paul Drayton</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/thomasJefferson.jpg" alt="Thomas Jefferson">
+            </div>
+            <p>Thomas Jefferson</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/madelineManningJackson.jpg" alt="Madeline Manning">
+            </div>
+            <p>Madeline Manning</p>
+          </div>
+        </div>
+        <div class="profileRow">
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/jesseOwens.jpg" alt="Jesse Owens">
+            </div>
+            <p>Jesse Owens</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/stellaWalsh.jpg" alt="Stella Walsh">
+            </div>
+            <p>Stella Walsh</p>
+          </div>
+          <div class="profileImage">
+            <div class="circularImage">
+              <img src="img/harrisonDillard.jpg" alt="Harrison Dillard">
+            </div>
+            <p>Harrison Dillard Duplicate</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+      <!--State Championships-->
+
+      <section id="stateChamps">
+        <div class="sectionTitle">
+      <h2 class="left">STATE CHAMPIONSHIPS</h2>
+      <h2 class="right oSPlus" onclick="$('.stateChampsImages').toggle();$('.oSPlus').toggle();$('.oSMinus').toggle();">+</h2>
+      <h2 class="right oSMinus" onclick="$('.stateChampsImages').toggle();$('.oSPlus').toggle();$('.oSMinus').toggle();">-</h2>
+    </div>
+    <div class="stateChampsImages">
+      <div class="profileRow">
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/daveAlbritton.jpg" alt="Dave Albritton">
+          </div>
+          <p>Dave Albritton</p>
+        </div>
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/nathanBrooks.jpg" alt="Nathan Brooks">
+          </div>
+          <p>Nathan Brooks</p>
+        </div>
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/harrisonDillard.jpg" alt="Harrison Dillard">
+          </div>
+          <p>Harrison Dillard</p>
+        </div>
+      </div>
+      <div class="profileRow">
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/paulDrayton.png" alt="Otis Paul Drayton">
+          </div>
+          <p>Paul Drayton</p>
+        </div>
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/thomasJefferson.jpg" alt="Thomas Jefferson">
+          </div>
+          <p>Thomas Jefferson</p>
+        </div>
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/madelineManningJackson.jpg" alt="Madeline Manning">
+          </div>
+          <p>Madeline Manning</p>
+        </div>
+      </div>
+      <div class="profileRow">
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/jesseOwens.jpg" alt="Jesse Owens">
+          </div>
+          <p>Jesse Owens</p>
+        </div>
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/stellaWalsh.jpg" alt="Stella Walsh">
+          </div>
+          <p>Stella Walsh</p>
+        </div>
+        <div class="profileImage">
+          <div class="circularImage">
+            <img src="img/harrisonDillard.jpg" alt="Harrison Dillard">
+          </div>
+          <p>Harrison Dillard Duplicate</p>
+        </div>
+      </div>
+    </div>
+  </section>

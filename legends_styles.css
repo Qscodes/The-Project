@@ -1,13 +1,14 @@
-*{
+* {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-
 }
 
+body {
+  background-color: black;
+}
 
 /* Nav styles */
-
-nav{
+nav {
   height: 225px;
   width: 100%;
   text-align: center;
@@ -15,15 +16,14 @@ nav{
 }
 
 /* Social Media links position */
-.media{
+.media {
   display: flex;
   flex-direction: row;
   margin-left: 76%;
   padding-top: 15px;
   margin-top: 0px;
-
-
 }
+
 /* Social Media links style */
 .fa {
   padding: 10px;
@@ -32,7 +32,6 @@ nav{
   text-align: center;
   text-decoration: none;
   border-radius: 65%;
-
 }
 
 /* Facebook */
@@ -56,7 +55,6 @@ nav{
   margin-left: 7px;
 }
 
-
 /* logo */
 .logo {
   width: 90px;
@@ -68,6 +66,7 @@ nav{
   display: flex;
   flex-direction: row;
 }
+
 /* Header --Sports */
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -97,7 +96,6 @@ nav ul {
 
 nav li {
   float: left;
-
 }
 
 nav li a {
@@ -125,3 +123,121 @@ nav li a:hover {
 }
 
 /* End Nav Bar text */
+.content_area {
+  width: 100%;
+  height: 900px;
+  background-color: black;
+}
+
+/*Basic Text*/
+.text {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background-color: #C13C3C;
+  /* RED*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 43%;
+  flex-direction: row;
+  display: flex;
+}
+
+/* Collapsible Sections */
+section {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 30px;
+}
+
+.sectionTitle {
+  display: flex;
+  background-color: #C13C3C;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sectionTitle h2:first-child {
+  flex-grow:4;
+}
+
+.sectionTitle h2 {
+  flex: 1;
+}
+
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.olympicAthleteImages, .olympicTrialImages, .stateChampsImages {
+  display: none;
+  background: white;
+  padding-top: 10px;
+}
+
+.profileRow {
+  display:flex;
+  text-align: center;
+}
+
+.profileImage {
+  flex:1;
+
+}
+
+.moreInfo {
+  display: none;
+  background: white;
+  position: fixed;
+  top:50%;
+  width: 80%;
+  left: 10%;
+}
+.circularImage {
+  border-radius: 50%;
+  overflow: hidden;
+  height:200px;
+  width:200px;
+  margin: 0 auto;
+
+}
+
+.circularImage img {
+  width: 100%;
+}
+
+h2.oMinus, h2.oTMinus, h2.oSMinus {
+  display: none
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.band {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+}
+
+@media screen and (max-width:  720px) {
+  .profileRow {
+    display:block;
+  }
+}
