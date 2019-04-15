@@ -2,13 +2,15 @@
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 
+
 }
 
-
+header{
+  background-color: black;
+}
 /* Nav styles */
 
 nav{
-  height: 225px;
   width: 100%;
   text-align: center;
   background-color: black;
@@ -56,9 +58,22 @@ nav{
   margin-left: 7px;
 }
 
+.title{
+  display: flex;
 
+}
+.title-item {
+  flex:1;
+}
+.title-item-grow {
+  flex-grow:1;
+}
 /* logo */
 .logo {
+ max-width: 90px;
+ display:inline-block;
+
+  /*test
   width: 90px;
   height: 90px;
   float: left;
@@ -67,6 +82,10 @@ nav{
   margin-left: 25%;
   display: flex;
   flex-direction: row;
+  */
+}
+.logo img{
+  width: 100%;
 }
 /* Header --Sports */
 h1 {
@@ -78,8 +97,10 @@ h1 {
   padding-top: 0px;
   display: flex;
   flex-direction: row;
+  display:inline-block;
+  /*flex-grow: 1;
   margin-left: 35%;
-  width: 50%;
+  width: 50%;*/
 }
 
 /* Nav bar text */
@@ -139,4 +160,86 @@ h3{
   font-size: 40px;
   color: black;
   text-align: center;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  color: black;
+  text-align: center;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+button{
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: 40%;
+
+}
+.people{
+  display: flex;
+  max-width: 700px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.people div:first-child{
+  margin-left: 0px;
+}
+.people div:last-child{
+  margin-right: 0px;
+}
+.people > div{
+  flex:1;
+  margin: 20px;
+}
+.person{
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.person img{
+  width: 100%;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.footer{
+  padding-top: auto;
+
+}
+@media screen and (max-width: 630px){
+  h1 {
+    font-size: 48px;
+  }
 }
