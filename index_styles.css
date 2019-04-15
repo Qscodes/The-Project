@@ -4,6 +4,9 @@
 
 }
 
+body{
+  margin: 0000;
+}
 
 /* Nav styles */
 
@@ -138,15 +141,9 @@ nav li a:hover {
   background-color: black;
   height: 300px;
   width: 100%;
+  margin-top: -40px;
 
 }
-
-
-.project{
-  display: flex;
-  flex-direction: row;
-}
-
 
 .intro{
   font-family: 'Roboto', sans-serif;
@@ -159,14 +156,13 @@ nav li a:hover {
   flex-direction: row;
 }
 
-p{
+.firstintro{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #E0E0E0;
   margin-left: 8%;
   width: 40%;
-
 
 }
 
@@ -181,8 +177,6 @@ p{
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
   margin-left: 75%;
   margin-top: -75px;
 
@@ -193,6 +187,7 @@ p{
   background-color: black;
   height: 700px;
   width: 100%;
+  margin-top: -40px;
 }
 
 /* leg of month header */
@@ -246,6 +241,7 @@ p{
   background-color: black;
   height: 300px;
   width: 100%;
+  margin-top: -40px;
 }
 
 
@@ -264,7 +260,11 @@ p{
 /* Why join us blurb */
 .join_blurb{
 text-align: center;
-margin-left: 30%;
+font-family: 'Roboto', sans-serif;
+color: white;
+width: 50%;
+margin-left: 25%;
+
 
 }
 
@@ -278,7 +278,7 @@ margin-left: 30%;
   font-size: 25px;
   border-radius: 10px;
   margin-top: 50px;
-  margin-left: 37%;
+  margin-left: 40%;
   text-align: center;
   text-decoration: none;
   display: flex;
@@ -300,71 +300,59 @@ margin-left: 30%;
   font-size: 40px;
   color: white;
   text-decoration: underline;
-  float: right;
+
+}
+
+/* info section heads */
+.big_info{
+  display: flex;
+  flex-direction: row;
+
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* info section heads */
 .info_subtitle{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   font-size: 30px;
   color: white;
   text-align: center;
-  display: flex;
-  flex-direction: row;
+
 }
 
 .info_blurb{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   font-size: 15px;
   color: white;
   width: 30%;
   text-align: center;
-  display: flex;
-  flex-direction: row;
 
 }
 
+
 .one_info{
   width: 40%;
-  display: flex;
-  flex-direction: row;
+  background-color: red;
+
 
 }
 
 .two_info{
-  display: flex;
-  flex-direction: row;
   width: 40%;
-  margin-left: 50%;
+  background-color: blue;
+
 }
 
 .three_info{
-  display: flex;
-  flex-direction: row;
   width: 40%;
+  background-color: green;
+
 }
 
 .four_info{
-  display: flex;
-  flex-direction: row;
   width: 40%;
+  background-color: teal;
+
 }
 
 
@@ -377,6 +365,7 @@ margin-left: 30%;
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  background-color: black;
   position: relative;
   margin: auto;
   background-color: black;
