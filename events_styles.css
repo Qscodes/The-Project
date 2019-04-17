@@ -147,12 +147,15 @@ nav li a:hover {
 
 /* End Nav Bar text */
 /* Start of Body*/
-
+body{
+  background-color: black;
+}
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 55px;
   color: black;
   text-align: center;
+  color: #E0E0E0;
 }
 
 h3{
@@ -160,35 +163,74 @@ h3{
   font-size: 40px;
   color: black;
   text-align: center;
+  color: #E0E0E0;
 }
+
+.largemedia{
+  display: flex;
+  max-width: 300px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.icon div:first-child{
+  margin-left: 0px;
+}
+.icon div:last-child{
+  margin-right: 0px;
+}
+.icon > div{
+  flex:1;
+  margin: 20px;
+  border-radius: 50%;
+
+}
+.icon{
+  border-radius: 50%;
+  overflow: hidden;
+  flex: 1;
+
+}
+
+.icon img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 
 h4{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: black;
   text-align: center;
+  color: #E0E0E0;
 }
 h5{
   font-family: 'Roboto', sans-serif;
   font-size: 55px;
   color: black;
   text-align: center;
+  color: #E0E0E0;
+  margin-bottom: 15px;
 }
 h6{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: black;
   text-align: center;
+  color: #E0E0E0;
 }
 button{
-  background-color: #f44336; /* Green */
+  background-color: #C13C3C; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 25px 80px;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 16px;
+  font-size: 35px;
   margin-left: 40%;
 
 }
@@ -198,6 +240,7 @@ button{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+
 
 }
 .people div:first-child{
@@ -209,6 +252,9 @@ button{
 .people > div{
   flex:1;
   margin: 20px;
+  border-radius: 50%;
+
+
 }
 .person{
   border-radius: 50%;
@@ -217,22 +263,20 @@ button{
 }
 
 .person img{
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 p{
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   text-align: center;
+  color: #E0E0E0;
 }
 
-{
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: black;
-  text-align: center;
-}
+
 
 .footer{
   padding-top: auto;
