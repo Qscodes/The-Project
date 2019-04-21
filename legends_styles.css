@@ -283,6 +283,11 @@ h2 {
   background-color: red;
 }
 
+.footercolor{
+  background-color: black;
+  padding-bottom: 10px;
+  }
+
 @media screen and (max-width:  720px) {
   .profileRow {
     display:block;
