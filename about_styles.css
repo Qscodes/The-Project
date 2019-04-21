@@ -252,6 +252,7 @@ nav li a:hover {
   margin-top: 20px;
   border: none;
   box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
 }
 
 .call_to_action {
