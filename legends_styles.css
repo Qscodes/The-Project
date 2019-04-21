@@ -41,6 +41,10 @@ body {
   text-decoration: none;
 }
 
+.footerspace {
+  width: 100;
+  height: 50px;
+}
 /* Collapsible Sections */
 section {
   padding-left: 40px;
