@@ -249,6 +249,7 @@ button{
   color: white;
   padding: 25px 80px;
   text-align: center;
+  border-radius: 10px;
   text-decoration: none;
   display: block;
   font-size: 35px;
